@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<%= person %>
+
+<%= data.age %>
+<%= data.job %>
+
+<h2>Hobbies</h2>
+
+<ul>
+
+    <% data.hobbies.forEach(function(item){ %>
+
+            <li><%= item  %> </li>
+
+    <% });   %>
+
+</ul>
+
+</body>
+</html>
